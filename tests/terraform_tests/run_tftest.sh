@@ -22,10 +22,13 @@ cp vault_password $tempdir
 
 cd $tempdir
 
+echo "here"
 terraform init || true  # expected to fail
+echo "applying"
 terraform apply --auto-approve
 cat terraform.tfstate > ../actual_tfstate.json
 
+echo "integration"
 cd ../../integration
 set +e
 go test -v
