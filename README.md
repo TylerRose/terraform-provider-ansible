@@ -2,7 +2,7 @@
 
 The Terraform Provider for Ansible provides a more straightforward and robust means of executing Ansible automation from Terraform than local-exec. Paired with the inventory plugin in [the Ansible cloud.terraform collection](https://github.com/ansible-collections/cloud.terraform), users can run Ansible playbooks and roles on infrastructure provisioned by Terraform. The provider also includes integrated ansible-vault support.
 
-This provider can be [found in the Terraform Registry here](https://registry.terraform.io/providers/ansible/ansible/latest).
+This provider can be [found in the Terraform Registry here](https://registry.terraform.io/providers/TylerRose/ansible/latest).
 
 For more details on using Terraform and Ansible together see these blog posts:
 
@@ -69,7 +69,7 @@ To release a new version of the provider:
 3. Run `antsibull-changelog release --version <version>` to release a new version of the project.
 4. Commit changes
 5. Push a new tag (this should trigger an automated release process to the Terraform Registry)
-6. Verify the new version is published at https://registry.terraform.io/providers/ansible/ansible/latest
+6. Verify the new version is published at https://registry.terraform.io/providers/TylerRose/ansible/latest
 
 ## Licensing
 
