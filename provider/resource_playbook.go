@@ -44,7 +44,7 @@ func resourcePlaybook() *schema.Resource {
 			"name": {
 				Type:        schema.TypeString,
 				Required:    true,
-				Optional:    false,
+				Optional:    true,
 				Description: "Name of the desired host on which the playbook will be executed.",
 			},
 
