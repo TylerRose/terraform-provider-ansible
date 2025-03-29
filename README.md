@@ -24,7 +24,7 @@ Run `make`. This will build a `terraform-provider-ansible` binary in the top lev
 ```
 provider_installation {
   dev_overrides {
-    "ansible/ansible" = "/path/to/project/root"
+    "TylerRose/ansible" = "/path/to/project/root"
   }
 
   direct {}

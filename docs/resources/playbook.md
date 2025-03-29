@@ -29,11 +29,11 @@ resource "ansible_playbook" "playbook" {
 
 ### Required
 
-- `name` (String) Name of the desired host on which the playbook will be executed.
 - `playbook` (String) Path to ansible playbook.
 
 ### Optional
 
+- `name` (String) Name of the desired host on which the playbook will be executed.
 - `ansible_playbook_binary` (String) Path to ansible-playbook executable (binary).
 - `check_mode` (Boolean) If 'true', playbook execution won't make any changes but only change predictions will be made.
 - `diff_mode` (Boolean) If 'true', when changing (small) files and templates, differences in those files will be shown. Recommended usage with 'check_mode'.
