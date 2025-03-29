@@ -54,6 +54,10 @@ signs:
       - "--detach-sign"
       - "${artifact}"
 release:
+  disable: false
+  github:
+    owner: TylerRose
+    name: terraform-provider-ansible
   extra_files:
     - glob: 'terraform-registry-manifest.json'
       name_template: '{{ .ProjectName }}_{{ .Version }}_manifest.json'
